@@ -5,14 +5,11 @@ bootstrap
 tailwind
 
 
-
-
 fiverr
 upwork
 freelancer
 
 html design (food)
-
 
 
 HTML documentation
