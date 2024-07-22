@@ -5,6 +5,19 @@ bootstrap
 tailwind
 
 
+
+
+fiverr
+upwork
+freelancer
+
+html design (food)
+
+
+
 HTML documentation
 CSS documentation
 JS documentation
+
+
+
