@@ -5,6 +5,7 @@ bootstrap
 tailwind
 
 
+iş ilanları:
 fiverr
 upwork
 freelancer
