@@ -1,56 +1,417 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İhsan Eren Erben</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header id="main-header">
+      <nav>
+        <a href="#home" class="nav-link active home-link">
+          <span class="nav-text">Ana Sayfa</span>
+          <img src="ihsan.jpg" class="nav-profile-mini" alt="Profil" />
+        </a>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kişisel Web Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+        <a href="#about" class="nav-link">Hakkımda</a>
+        <a href="#skills" class="nav-link">Yetenekler</a>
+        <a href="#projects" class="nav-link">Projeler</a>
+        <a href="#contact" class="nav-link">İletişim</a>
+      </nav>
+    </header>
 
-<body>
+    <main>
+      <section id="home" class="section home-section">
+        <img
+          src="ihsan.jpg"
+          alt="İhsan Eren Erben Profil Fotoğrafı"
+          class="profile-photo"
+        />
+        <div class="home-content">
+          <h1>İhsan Eren Erben</h1>
+          <span class="highlight-text"
+            >Bilgisayar Mühendisliği Öğrencisi | Java Spring Boot</span
+          >
 
-    <div class="box">
-        <div class="caca1">
-            <img src="https://avatars.githubusercontent.com/u/147556034?v=4" alt="">
+          <p style="max-width: 600px; margin: 0 auto 15px auto">
+            Işık Üniversitesi Bilgisayar Mühendisliği Bölümü'nde 4. sınıf
+            öğrencisiyim. Akademik yolculuğum boyunca, özellikle kurumsal
+            düzeyde yüksek performanslı, ölçeklenebilir ve güvenilir Java Spring
+            Boot tabanlı back-end sistemleri geliştirmeye odaklandım.
+          </p>
+          <p style="max-width: 600px; margin: 0 auto">
+            Turkcell Teknoloji'de gerçekleştirdiğim staj programında aktif rol alarak değerli bir deneyim kazandım. Bu süreçte, modern yazılım geliştirme pratiklerini uygulayarak RESTful API tasarımları ve implementasyonları gerçekleştirdim.
+          </p>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <h2>Hakkımda</h2>
+        <div class="about-container">
+          <div class="about-summary">
+            <div class="module-box">
+              <ul class="summary-list">
+                <li>
+                  Kariyerimin erken aşamasında, sahip olduğum enerjiyi ve
+                  çocukluğumdan gelen merakı, her geçen gün kendimi daha iyi bir
+                  noktaya taşımak için projelere katkı sağlamaya dönüştürmeyi
+                  hedefliyorum.
+                </li>
+              </ul>
+
+              <h4
+                class="module-title"
+                style="text-align: left; margin-top: 15px; margin-bottom: 15px"
+              >
+                <i class="fa-solid fa-layer-group"></i> Öğrendiğim Alanlar
+              </h4>
+
+              <div class="learning-areas-grid">
+                <div class="learning-area-card">
+                  <i class="fa-solid fa-code"></i>
+                  <span>Programlama (Java/OOP)</span>
+                </div>
+                <div class="learning-area-card">
+                  <i class="fa-solid fa-database"></i>
+                  <span>Veritabanı (SQL/NoSQL)</span>
+                </div>
+                <div class="learning-area-card">
+                  <i class="fa-solid fa-globe"></i>
+                  <span>Web Geliştirme</span>
+                </div>
+                <div class="learning-area-card">
+                  <i class="fa-solid fa-server"></i>
+                  <span>Sistem Mimarileri</span>
+                </div>
+                <div class="learning-area-card">
+                  <i class="fa-solid fa-network-wired"></i>
+                  <span>Network & Protocols</span>
+                </div>
+                <div class="learning-area-card">
+                  <i class="fa-solid fa-vial-circle-check"></i>
+                  <span>Testing & QA (TDD)</span>
+                </div>
+                <div class="learning-area-card">
+                  <i class="fa-solid fa-sitemap"></i>
+                  <span>Design Patterns</span>
+                </div>
+                <div class="learning-area-card">
+                  <i class="fa-solid fa-cloud-arrow-down"></i>
+                  <span>RESTful & SOAP APIs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-timeline">
+            <div class="module-box education-box">
+              <h4 class="module-title">
+                <i class="fa-solid fa-graduation-cap"></i> Eğitim
+              </h4>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h4>Bilgisayar Mühendisliği, Işık Üniversitesi</h4>
+                  <p class="timeline-date">2021 - 2026</p>
+                  <p class="timeline-desc">
+                    Mezuniyet projesi hariç tüm derslerimi başarıyla tamamladım.
+                    Teorik temellerimi erkenden oluşturarak tamamen pratiğe
+                    odaklandım.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="module-box experience-box">
+              <h4 class="module-title">
+                <i class="fa-solid fa-briefcase"></i> Deneyim Yolculuğu
+              </h4>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h4>Back-End Developer Stajyeri, Turkcell Teknoloji</h4>
+                  <p class="timeline-date">Ocak 2025 - Şubat 2025</p>
+                  <p class="timeline-desc">
+                    Spring Boot ile RESTful API'ler, PostgreSQL ve Redis
+                    entegrasyonları geliştirdim. Spring Security ve Agile
+                    süreçlerinde aktif rol aldım. Ayrıca redis cache ile loglama ve exception handling gibi konularda pratik yaptım.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h4>Cankurtaran, Premier Aquatics Pools (ABD)</h4>
+                  <p class="timeline-date">Haziran 2025 - Ekim 2025</p>
+                  <p class="timeline-desc">
+                    Work & Travel programı ile çok kültürlü bir ortamda İngilizce iletişim, takım çalışması
+                    ve kriz yönetimi becerilerimi geliştirdim. Sorumluluk
+                    bilinci yüksek bir pozisyonda görev aldım.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills-section">
+        <h2>Yetenekler</h2>
+        <div class="skills-grid-container">
+          <div class="skills-card">
+            <h3><i class="fa-solid fa-microchip"></i> Teknik Yetenekler</h3>
+            <div class="skills-grid technical">
+              <span>Java Core & Advanced</span>
+              <span>OOP Fundamentals</span>
+              <span>Spring Boot</span>
+              <span>Spring Cloud</span>
+              <span>Spring Data JPA</span>
+              <span>Spring Security</span>
+              <span>Hibernate ORM</span>
+              <span>Microservices Architecture</span>
+              <span>RESTful APIs</span>
+              <span>SOAP APIs</span>
+              <span>Design Patterns</span>
+              <span>Event Sourcing (Kafka/RabbitMQ)</span>
+              <span>Docker</span>
+              <span>Kubernetes</span>
+              <span>CI/CD (Jenkins/GitLab)</span>
+              <span>Git/GitHub/Bitbucket</span>
+              <span>Maven/Gradle</span>
+              <span>PostgreSQL</span>
+              <span>MySQL</span>
+              <span>MongoDB</span>
+              <span>Redis (Caching)</span>
+              <span>Elasticsearch</span>
+              <span>Unit Testing (JUnit/Mockito)</span>
+              <span>TDD</span>
+              <span>Swagger/OpenAPI</span>
+              <span>SonarQube</span>
+              <span>Jira/Agile/Scrum</span>
+              <span>AWS Basics</span>
+              <span>Linux Basics</span>
+              <span>SDLC Awareness</span>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <h3><i class="fa-solid fa-handshake"></i> Soft Yetenekler</h3>
+            <div class="skills-grid soft">
+              <p>Problem Çözme ve Analitik Düşünme</p>
+              <p>Etkili ve Şeffaf İletişim</p>
+              <p>Takım Çalışması ve İşbirliği</p>
+              <p>Zaman Yönetimi ve Önceliklendirme</p>
+              <p>Hızlı Öğrenme ve Teknolojiye Adaptasyon</p>
+              <p>Kriz Yönetimi ve Stres Altında Çalışma</p>
+              <p>Detay Odaklılık ve Kalite Bilinci</p>
+              <p>Sorumluluk Alma İsteği</p>
+              <p>Çok Kültürlü Ortamlara Uyum (ABD Deneyimi)</p>
+            </div>
+            <p class="soft-skills-summary">
+              Turkcell Teknoloji stajında Agile ortamda teknik yetkinliklerimi,
+              Premier Aquatics'te ise çok kültürlü bir ekipte iletişim ve
+              adaptasyon becerilerimi pekiştirdim.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section">
+        <h2>Projeler</h2>
+
+        <div class="project-item">
+          <h3>Avatar Yönetim Sistemi (Turkcell Teknoloji Staj Projesi)</h3>
+          <div class="project-tags">
+            <span>Java</span><span>Spring Boot</span><span>PostgreSQL</span
+            ><span>Redis</span><span>Docker</span><span>Spring Security</span>
+          </div>
+          <p class="project-description">
+            BiP backend stajımda geliştirdiğim, kullanıcıların
+            avatar kayıt, kimlik doğrulama ve yönetimini sağlayan, yüksek
+            performanslı ve ölçeklenebilir bir back-end sistemidir. Performans
+            artışı ve veri tutarlılığı için PostgreSQL ile kalıcı depolama ve
+            Redis ile önbellekleme mekanizmalarını entegre ettim. Projede Spring
+            Security ile güvenli kimlik doğrulama (Authentication/Authorization)
+            altyapısı kurdum. Ayrıca, RESTful API prensiplerine uygun
+            endpoint'ler tasarladım, önbellek öncelikli veri erişim stratejileri
+            (cache-aside pattern) uyguladım ve istemciye anlamlı hata mesajları
+            dönen yapılandırılmış JSON tabanlı
+            exception handling mimarisi geliştirdim.
+          </p>
+          <a
+            href="https://github.com/ihsanerben/AvatarManagementSystem"
+            target="_blank"
+            class="button"
+            >GitHub'da İncele <i class="fa-brands fa-github"></i
+          ></a>
         </div>
 
-        <h1>İhsan Eren Erben</h1>
-        <h2>Software Engineer</h2>
-        <p>I am a dedicated second-year student who has been steadily advancing in Java programming and is determined to
-            carve a niche as a full stack developer. My immediate objective is to immerse myself in JavaScript
-            development during the upcoming summer to synergize with my long-term career ambitions. The joy of
-            self-improvement is a constant motivator, driving me to enhance my skills and deepen my understanding with
-            each passing day.</p>
+        <div class="project-item">
+          <h3>Randevu ve Yönetim Sistemi (CRM & SaaS)</h3>
+          <div class="project-tags">
+            <span>React.js</span><span>Spring Boot</span><span>PostgreSQL</span
+            ><span>RESTful APIs</span><span>Ant Design</span>
+          </div>
+          <p class="project-description">
+            Kuaför ve güzellik salonları gibi hizmet odaklı işletmeler için
+            tasarlanmış, çok kiracılı (multi-tenant) mimariye uygun tam kapsamlı
+            bir rezervasyon ve müşteri ilişkileri yönetimi (CRM) platformudur.
+            İşletmelerin müşteri randevu defterini, personel çalışma saatlerini
+            ve hizmet yönetimini tamamen dijitalleştirir. Güvenlik katmanında,
+            JWT (JSON Web Token) tabanlı kimlik doğrulama ve rol tabanlı erişim
+            kontrolü (RBAC) ile istemci (müşteri) ve yönetici (işletme
+            sahibi/personel) rollerini ayırarak veri güvenliğini sağladım. Ön
+            yüzde React.js ve Ant Design kütüphanesini kullanarak modern ve
+            kullanıcı dostu bir arayüz geliştirdim.
+          </p>
+          <a
+            href="https://github.com/ihsanerben/dijital-kuaforum-api"
+            target="_blank"
+            class="button"
+            >GitHub'da İncele <i class="fa-brands fa-github"></i
+          ></a>
+        </div>
 
-        <ul class="iconlar">
-            <li><a target="_blank" href="https://www.instagram.com/ihsanerben/?locale=en-GB">
-                    <i class="bi bi-instagram"></i>
-                </a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/in/ihsan-eren-erben-35b6a2222/">
-                    <i class="bi bi-linkedin"></i>
-                </a></li>
-            <li><a target="_blank" href="https://github.com/ihsanerben">
-                    <i class="bi bi-github"></i>
-                </a></li>
-            <li><a target="_blank" href="https://leetcode.com/u/ihsanerben/">
-                    <img src="https://ih1.redbubble.net/image.662995398.2784/pp,840x830-pad,1000x1000,f8f8f8.u3.jpg"
-                        alt="">
-                </a></li>
-            <li>
-                <a target="_blank" href="images/ihsanCV.pdf">CV</a>
-            </li>
-            <li>
-                <a target="_blank" href="images/turingCV.pdf"><img
-                        src="https://www.turing.org.tr/wp-content/uploads/2022/06/Turing-Olaganustu-Genel-Kurul.jpg"
-                        alt=""></a>
-            </li>
-        </ul>
+        <div class="project-item">
+          <h3>E-Ticaret Web Sitesi (Full Stack)</h3>
+          <div class="project-tags">
+            <span>React.js</span><span>Node.js</span><span>Express.js</span
+            ><span>MongoDB</span>
+          </div>
+          <p class="project-description">
+            Modern e-ticaret ihtiyaçlarını karşılamak üzere MERN (MongoDB,
+            Express.js, React.js, Node.js) yığını kullanılarak geliştirilmiş,
+            tam işlevli bir e-ticaret platformudur. Kullanıcılar için dinamik
+            ürün listeleme, filtreleme, detaylı ürün sayfaları, kalıcı
+            (persistent) sepet yönetimi ve sipariş takibi gibi özellikler sunar.
+            Arka planda, Node.js ve Express.js ile RESTful API servisleri
+            oluşturuldu ve veriler esnek bir yapı sunan MongoDB NoSQL
+            veritabanında saklandı. Güvenli ödeme entegrasyonu altyapısı
+            hazırlandı. Proje boyunca kullanıcı deneyimi (UX) ve sayfa yükleme
+            performansı ön planda tutularak, responsive tasarım ilkelerine sadık
+            kalındı.
+          </p>
+          <a
+            href="https://github.com/ihsanerben/e-commerce-13092024-"
+            target="_blank"
+            class="button"
+            >GitHub'da İncele <i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </section>
 
-    </div>
+      <section id="contact" class="section contact-section">
+        <h2>İletişim</h2>
+        <p class="contact-intro-text">
+          Yeni fırsatlar, projeler veya sadece bir merhaba demek için benimle
+          iletişime geçebilirsiniz. Geri bildirimlere her zaman açığım.
+        </p>
 
+        <div class="social-links-container">
+          <a
+            href="https://www.linkedin.com/in/ihsanerben"
+            target="_blank"
+            class="button"
+            ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+          >
+          <a
+            href="https://www.github.com/ihsanErben"
+            target="_blank"
+            class="button"
+            ><i class="fa-brands fa-github"></i> GitHub</a
+          >
+          <a
+            href="https://ihsanerben.netlify.app"
+            target="_blank"
+            class="button"
+            ><i class="fa-solid fa-globe"></i> Portfolio</a
+          >
+        </div>
 
+        <br />
 
-</body>
+        <div class="contact-details-grid">
+          <div class="contact-info-card">
+            <i class="fa-solid fa-envelope"></i>
+            <h4>Email Adresi</h4>
+            <a href="mailto:ihsanerben@gmail.com" class="contact-link"
+              >ihsanerben@gmail.com</a
+            >
+          </div>
 
+          <div class="contact-info-card">
+            <i class="fa-solid fa-phone"></i>
+            <h4>Telefon Numarası</h4>
+            <a href="tel:+905417308616" class="contact-link"
+              >+90 541 730 8616</a
+            >
+          </div>
+
+          <div class="contact-info-card">
+            <i class="fa-solid fa-location-dot"></i>
+            <h4>Konum</h4>
+            <p>Ümraniye, İstanbul</p>
+          </div>
+        </div>
+        <br />
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1448.045429124109!2d29.002016266782338!3d41.10011659592032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab5d60e72f0fb%3A0xff34dffeeac090fe!2sTouring%20and%20Automobile%20Club%20of%20Turkey!5e0!3m2!1sen!2str!4v1765800662719!5m2!1sen!2str"
+            width="100%"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer id="main-footer">
+      <p>© 2025 İhsan Eren Erben. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script>
+      const sections = document.querySelectorAll("section[id]");
+      const navLinks = document.querySelectorAll(".nav-link");
+      const options = {
+        root: null,
+        rootMargin: "-40% 0px -40% 0px",
+        threshold: 0,
+      };
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const sectionId = entry.target.id;
+            navLinks.forEach((link) => link.classList.remove("active"));
+            const newActiveLink = document.querySelector(
+              `.nav-link[href="#${sectionId}"]`
+            );
+            if (newActiveLink) {
+              newActiveLink.classList.add("active");
+            }
+          }
+        });
+      }, options);
+      sections.forEach((section) => {
+        observer.observe(section);
+      });
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document
+            .querySelector(this.getAttribute("href"))
+            .scrollIntoView({ behavior: "smooth" });
+        });
+      });
+    </script>
+  </body>
 </html>
